@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- Hidden checkbox for theme toggle -->
+    <input type="checkbox" id="theme-toggle" class="hidden-checkbox">
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo"><i class="fas fa-black-hole"></i>Nikita<span>Sahoo</span></a>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Projects & Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="theme-toggle">
+                                <div class="slider">
+                                    <i class="fas fa-sun"></i>
+                                    <i class="fas fa-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container home-content">
+            <div class="home-img">
+                <img src="./images/portfolio.JPG" alt="Profile Image" class="profile-img">
+            </div>
+            <div class="home-text">
+                <h1>Hi, I'm <span>Nikita Sahoo</span></h1>
+                <p>A passionate Frontend Developer creating interactive and responsive web experiences with stunning
+                    visuals.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+
+                <a href="./images/Nikita_new.pdf" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Nikita Sahoo, a frontend developer with over 2 years of experience building responsive
+                        and user-friendly websites and web applications.</p>
+                    <p>My passion lies in creating digital experiences that are not only visually appealing but also
+                        highly functional and accessible to all users.</p>
+                    <p>I specialize in HTML, CSS, JavaScript, and modern frameworks like React and Node.js. I'm
+                        constantly learning and exploring new technologies to stay at the forefront of web development.
+                    </p>
+                    <a href="#" class="btn btn-outline">Read More</a>
+                </div>
+                <div class="about-img">
+                    <img src="./images/profile.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML5 <span>95%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress html"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>CSS3 <span>90%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress css"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>JavaScript <span>85%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress js"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>React <span>80%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress react"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>UI/UX Design <span>75%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress ui"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Express.js <span>80%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress express"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>MongoDB <span>75%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress mongo"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Node.js <span>70%</span></h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress node"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom website development with modern technologies and responsive design principles.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                        <li><i class="fas fa-check"></i> Frontend Development</li>
+                        <li><i class="fas fa-check"></i> Backend Integration</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and visually appealing user interfaces that enhance user experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Research</li>
+                        <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                        <li><i class="fas fa-check"></i> Visual Design</li>
+                        <li><i class="fas fa-check"></i> Usability Testing</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Building cross-platform mobile applications with React Native and Flutter.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cross-Platform Development</li>
+                        <li><i class="fas fa-check"></i> Native App Development</li>
+                        <li><i class="fas fa-check"></i> API Integration</li>
+                        <li><i class="fas fa-check"></i> App Store Deployment</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Certificates Section -->
+    <section id="work">
+        <div class="container">
+            <h2 class="section-title">Projects & Certificates</h2>
+
+            <!-- Radio buttons (hidden) -->
+            <input type="radio" name="tabset" id="tab1" checked>
+            <input type="radio" name="tabset" id="tab2">
+
+            <!-- Tab labels -->
+            <div class="tabs">
+                <label for="tab1" class="tab-label">Projects</label>
+                <label for="tab2" class="tab-label">Certificates</label>
+            </div>
+
+            <!-- Projects Tab -->
+            <div id="projects-panel" class="tab-panel">
+                <div class="carousel">
+                    <div class="project-card">
+                    <img src="./images/project1.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <a href="./images/project1.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/project2.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>Travel Blog Platform</h3>
+                        <p>A content management system for travel bloggers with map integration and social sharing features.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Google Maps API</span>
+                        </div>
+                        <a href="./images/project2.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/project3.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>Financial Dashboard</h3>
+                        <p>Interactive dashboard for financial data visualization with real-time updates and reporting tools.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">REST API</span>
+                        </div>
+                        <a href="./images/project3.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/project4.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile-first web application for tracking workouts, nutrition, and health metrics with progress charts.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React Native</span>
+                            <span class="project-tag">GraphQL</span>
+                            <span class="project-tag">Chart.js</span>
+                        </div>
+                        <a href="./images/project4.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/project5.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>Task Management System</h3>
+                        <p>Collaborative task management tool with drag-and-drop interface, team assignments, and notifications.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Angular</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">WebSockets</span>
+                        </div>
+                        <a href="./images/project5.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/project6.jpg" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3>Real Estate Listing</h3>
+                        <p>Property listing platform with advanced search filters, virtual tours, and agent communication tools.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                        <a href="./images/project6.jpg" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Certificates Tab -->
+            <div id="certificates-panel" class="tab-panel">
+                <div class="certs-container">
+                    <div class="cert-card">
+                    <!-- <div class="cert-img">
+                        <i class="fas fa-certificate"></i>
+                    </div> -->
+                    <img src="./images/certificat.jpg" alt="Certification"  class="cert-img">
+
+                    <div class="cert-content">
+                        <h3>Advanced Web Development</h3>
+                        <p>Issued by Web Development Institute • June 2022</p>
+                        <p>Mastered advanced concepts of modern web development including responsive design, performance optimization, and accessibility.</p>
+                        <a href="./images/certificat.jpg" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <img src="./images/certificat.jpg" alt="Certification"  class="cert-img">
+
+                    <div class="cert-content">
+                        <h3>UI/UX Design Mastery</h3>
+                        <p>Issued by Design Academy • March 2022</p>
+                        <p>Comprehensive training on user-centered design principles, prototyping, and usability testing methodologies.</p>
+                        <a href="./images/certificat.jpg" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <img src="./images/certificat.jpg" alt="Certification"  class="cert-img">
+
+                    <div class="cert-content">
+                        <h3>JavaScript Frameworks</h3>
+                        <p>Issued by JS Experts • January 2022</p>
+                        <p>Deep dive into modern JavaScript frameworks including React, Vue, and Angular with hands-on project experience.</p>
+                        <a href="./images/certificat.jpg" class="btn btn-outline">View Certificate</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to
+                        connect.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Web Street, Digital City</p>
+                    <p><i class="fas fa-phone"></i> +91-1234567899</p>
+                    <p><i class="fas fa-envelope"></i> nikita1919@gmail.com</p>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Stacked Layout -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-black-hole"></i>Nikita<span>Sahoo</span>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#work">Projects & Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="tel:+91-1234567899" class="contact-btn"><i class="fas fa-phone"></i> Call Me</a>
+                    <a href="mailto:nikita1919@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Email
+                        Me</a>
+                </div>
+
+                <div class="social-icons-footer">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
